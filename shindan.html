@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ゼミ診断</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shindan.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+</head>
+<body>
+
+  <a href="index.html"><input type="button" value="トップへ戻る" id="backBtn"></a>
+    <h1>おすすめゼミ診断</h1>
+    
+<div class="wrapper">
+
+    <ul>
+        <li>
+        <span>Q1. 　動植物や微生物、自然環境に興味がある
+        </span>
+        <label><input type="radio" name="q01" id="typeA">YES</label>
+        <label><input type="radio" name="q01">NO</label>
+        </li>
+        
+        <li>
+        <span>Q2. 　日本や世界の社会問題に関心がある
+        </span>
+        <label><input type="radio" name="q02" id="typeB">YES</label>
+        <label><input type="radio" name="q02">NO</label>
+        </li>
+
+        <li>
+        <span>Q3. 　人類や文化、学問の歴史に関心がある
+        </span>
+        <label><input type="radio" name="q03" id="typeC">YES</label>
+        <label><input type="radio" name="q03">NO</label>
+        </li>
+
+        <li>
+        <span>Q4. 　人間が暮らす空間や建築物のデザインに関心がある
+        </span>
+        <label><input type="radio" name="q04" id="typeD">YES</label>
+        <label><input type="radio" name="q04">NO</label>
+        </li>
+
+        <li>
+        <span>Q5. 　人間の生体システムに関心がある
+        </span> 
+        <label><input type="radio" name="q05" id="typeE">YES</label>
+        <label><input type="radio" name="q05">NO</label>
+        </li>
+
+        <li>
+        <span>Q6. 　人や地域の生活を支える福祉に関心がある
+        </span>
+        <label><input type="radio" name="q06" id="typeF">YES</label>
+        <label><input type="radio" name="q06">NO</label>
+        </li>
+
+        <li>
+        <span>Q7. 　疾病や障害を抱えた人の治療や支援に関心がある
+        </span>
+        <label><input type="radio" name="q07" id="typeG">YES</label>
+        <label><input type="radio" name="q07">NO</label>
+        </li>
+
+        <li>
+        <span>Q8. 　こころの悩みを抱えた人の支援に関心がある
+        </span>
+        <label><input type="radio" name="q08" id="typeH">YES</label>
+        <label><input type="radio" name="q08">NO</label>
+        </li>
+
+        <li>
+        <span>Q9. 　ITに関心がある
+        </span>
+        <label><input type="radio" name="q09" id="typeI">YES</label>
+        <label><input type="radio" name="q09">NO</label>
+        </li>
+
+        <li>
+        <span>Q10. 　人間の記憶や認知に関心がある
+        </span>
+        <label><input type="radio" name="q010" id="typeJ">YES</label>
+        <label><input type="radio" name="q010">NO</label>
+        </li>
+
+        <li>
+        <span>Q11. 　工学デザインに関心がある
+        </span>
+        <label><input type="radio" name="q11" id="typeK">YES</label>
+        <label><input type="radio" name="q11">NO</label>
+        </li>
+
+        <li>
+        <span>Q12. 　教育に関心がある
+        </span>
+        <label><input type="radio" name="q12" id="typeL">YES</label>
+        <label><input type="radio" name="q12">NO</label>
+        </li>
+
+
+        <li>
+        <span>Q13. 　英語やコミュニケーションに関心がある
+        </span>
+        <label><input type="radio" name="q13" id="typeM">YES</label>
+        <label><input type="radio" name="q13">NO</label>
+        </li>
+
+
+    </ul>
+</div>  
+
+    <div class="button_wrapper">
+    <input type="button" value="診断する" id="button">
+    </div>
+
+
+<div class="wrapper" id="wrapper2">
+<h2 class="result" id="osusume">あなたにおすすめの系は</h2>
+<div class="result resultA">
+  <a href="index.html#A"><h3>生物・環境系</h3></a>
+</div>
+<div class="result resultB">
+  <a href="index.html#B"><h3>社会系</h3></a>
+</div>
+<div class="result resultC">
+  <a href="index.html#C"><h3>文化系</h3></a>
+</div>
+<div class="result resultD">
+  <a href="index.html#D"><h3>心理・行動系</h3></a>
+    
+</div>
+<div class="result resultE">
+  <a href="index.html#E"><h3>健康・生命系</h3></a>
+    
+</div>
+<div class="result resultF">
+  <a href="index.html#F"><h3>保健福祉系</h3></a>
+    
+</div>
+<div class="result resultG">
+  <a href="index.html#G"><h3>医工人間学系</h3></a>
+    
+</div>
+<div class="result resultH">
+  <a href="index.html#H"><h3>臨床心理系</h3></a>
+    
+</div>
+<div class="result resultI">
+  <a href="index.html#I"><h3>情報科学系</h3></a>
+    
+</div>
+<div class="result resultJ">
+  <a href="index.html#J"><h3>認知科学系</h3></a>
+    
+</div>
+<div class="result resultK">
+  <a href="index.html#K"><h3>人間工学系</h3></a>
+    
+</div>
+<div class="result resultL">
+  <a href="index.html#L"><h3>教育工学系</h3></a>
+    
+</div>
+<div class="result resultM">
+  <a href="index.html#M"><h3>コミュニケーション学系</h3></a>
+    
+</div>
+
+
+
+</div>
+
+
+    
+    <script src="shindan.js"></script>
+</body>
+</html> 
